@@ -1,0 +1,12 @@
+{
+  "name": "worldjen",
+  "description": "Agent skills for WorldJen — measurable quality scoring for generated media: install, runner, score (single-clip per-dimension scores), rank (leaderboard across clips that share a prompt), bench (whole-model benchmark), and the public leaderboard.",
+  "version": "0.3.0",
+  "author": {
+    "name": "MoonMath.ai",
+    "url": "https://moonmath.ai"
+  },
+  "homepage": "https://www.worldjen.com",
+  "repository": "https://github.com/moonmath-ai/worldjen-skills",
+  "license": "MIT"
+}

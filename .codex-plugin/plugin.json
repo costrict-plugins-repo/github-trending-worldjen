@@ -1,0 +1,45 @@
+{
+  "name": "worldjen",
+  "version": "0.3.0",
+  "description": "Agent skills for WorldJen — measurable quality scoring for generated media: install, runner, score (single-clip per-dimension scores), rank (leaderboard across clips that share a prompt), bench (whole-model benchmark), and the public leaderboard.",
+  "author": {
+    "name": "MoonMath.ai",
+    "url": "https://moonmath.ai"
+  },
+  "homepage": "https://www.worldjen.com",
+  "repository": "https://github.com/moonmath-ai/worldjen-skills",
+  "license": "MIT",
+  "keywords": [
+    "worldjen",
+    "runner",
+    "video-generation",
+    "sdk",
+    "cli",
+    "score",
+    "bench",
+    "rank",
+    "leaderboard"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "WorldJen",
+    "shortDescription": "Operate WorldJen from Codex",
+    "longDescription": "Drive WorldJen from Codex — measurable quality scoring for generated media. Install the SDK and CLI, set up and operate a runner host, score a single generated clip for raw per-dimension numbers, rank clips that share a prompt into a leaderboard, benchmark a whole model across every dimension at scale, and fetch the public leaderboard.",
+    "developerName": "MoonMath.ai",
+    "category": "AI Evaluation",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://www.worldjen.com",
+    "defaultPrompt": [
+      "Show me the WorldJen leaderboard.",
+      "Install the WorldJen CLI and verify it works.",
+      "Score these 10 videos and tell me which one to ship and why.",
+      "Benchmark Lightricks/LTX-2 on all t2v dimensions with runner gpu-h100-01.",
+      "Compare run_8a3f to run_91bc — which dimensions regressed by 5pp or more?"
+    ],
+    "brandColor": "#8B5CF6",
+    "logo": "./assets/worldjen-logo.svg"
+  }
+}
